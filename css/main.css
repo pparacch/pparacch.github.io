@@ -2,13 +2,40 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+
+nav.mainmenu ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav.mainmenu ul li {
+    float: left;
+}
+
+nav.mainmenu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav.mainmenu ul li a:hover:not(.active) {
+    background-color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
