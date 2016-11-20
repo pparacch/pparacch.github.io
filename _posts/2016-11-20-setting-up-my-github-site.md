@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Setting up my web site in Github"
 date: 2016-11-20
+title: Setting up my web site in Github
 ---
 I have thought for a long time to set up a site describing my professional journey, my passions for people/ data and technology and, __finally__, I have stopped procastinating and moved into action.
 
@@ -14,7 +14,11 @@ The recipe:
 
 I can now use Markdown to author my posts. Surprisingly It was a lot more easier than I thought.
 
+In order to make it easy to create web pages I would highly recommend to install Jekyll locally on the machine. I have had few issues when Github was building the website with meaningless error messages. Having Jekyll locally installed it is possible to launch the website locally and debugging the issues.
+
+For the installation of Jekyll on my local machine (mac OS) I have followed the [Jekyll documentation](https://jekyllrb.com/docs/installation/).
+
 Next steps:
 
 * finalize the website structure
-* set up Jekyll & Github Pages to work locally before pushing into Github  
+* spend some more time understanding Jekyll
