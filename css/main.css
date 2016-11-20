@@ -28,6 +28,7 @@ nav.mainmenu ul li a:hover:not(.active) {
     background-color: rgb(128, 128, 128);
     text-decoration: none;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
@@ -50,6 +51,7 @@ footer ul li a:hover {
     text-decoration: none;
     color: #000000;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -57,9 +59,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+div.navigationInfo {
+  font-size: 0.6em;
+  color: #808080;
 }
 p {
     font-size: 1.5em;
