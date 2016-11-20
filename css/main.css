@@ -20,7 +20,7 @@ nav.mainmenu ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -28,16 +28,27 @@ nav.mainmenu ul li a:hover:not(.active) {
     background-color: rgb(128, 128, 128);
     text-decoration: none;
 }
-
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 1em;
+}
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 footer ul li {
     display: inline;
     margin-right: 20px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #808080;
+}
+footer ul li a:hover {
+    text-decoration: none;
+    color: #000000;
 }
 a {
     text-decoration: none;
@@ -54,10 +65,6 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts {
