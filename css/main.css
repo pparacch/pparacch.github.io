@@ -31,6 +31,7 @@ nav.mainmenu ul li a:hover:not(.active) {
 }
 
 footer {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
 }
@@ -51,6 +52,14 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: none;
     color: #000000;
+}
+
+footer p {
+  border-top: 1px solid #d5d5d5;
+  padding: 10px;
+  font-size: 0.7em;
+  color: #808080;
+  align: center
 }
 
 a {
