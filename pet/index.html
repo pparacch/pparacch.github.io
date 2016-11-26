@@ -2,10 +2,46 @@
 layout: default
 title: Pet Projects
 ---
+<style>
+	.pet {
+		font-size: 0.9em;
+	}
+	.petClass {
+		text-align: center;
+		border-top: 1px solid #d5d5d5;
+		border-bottom: 1px solid #d5d5d5;
+		font-weight: bold;
+  }
+	.petTitle {
+		font-weight: bold;
+  }
+	.petContent {
+		font-style: italic;
+  }
+	.petSupportingMaterial {
+		font-style: italic;
+		text-align: right;
+		font-size: 0.8em;
+  }
+</style>
+
 <div class="navigationInfo">
 	<p class = "navigationInfo" align="right">{\{{ page.title }}}</p>
 </div>
 <div class="blurb">
-	<h2>{{ page.subtitle }}</h2>
-	<p>This is the landing page.</p>
+	<p>At the beginning of my journey, I was mainly concern on <b>continously learning new stuff</b> following MOOCs one after another, <b>without spending enough time to "digest" all the learning and using it on real problems</b>. It was not a wise approacch and, after a while, I have started to realize that it is actually not enough.</p>
+
+	<p>The best way to <b>really master a topic</b> is to <b>practice continuously</b> and <b>be hands-on</b>. In other words, <b>get your hands dirty</b> working on some <b>pet projects</b>, <b>replicating experiments</b>, or even better, <b>capstone projects</b> and <b>Kaggle</b> competitions.</p>
 </div><!-- /.blurb -->
+
+<div class="pet">
+	<p class = "petClass">"Data Science Specialization" Coursera, Capstone Projects</p>
+	<div>
+		<span class = "petTitle">"Getting And Cleaning Data" Capstone Project, February 2015</span><br/>
+		<span class = "petContent">Prepare a <a href="ftp://cran.r-project.org/pub/R/web/packages/tidyr/vignettes/tidy-data.html", target="_blank">tidy dataset</a> starting from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones", target="_blank">"Human Activity Recognition Using Smartphone"</a> dataset, with the required supporting materials that can be used for later analysis by a statistician.</span>
+		<div class = "petSupportingMaterial">
+			<span>[<a href="https://github.com/pparacch/GettingAndCleaningData" target = "_blank">Project Repository</a>]</span>
+		</div>
+	</div><!-- /.blurb -->
+</div>
+<br/>
