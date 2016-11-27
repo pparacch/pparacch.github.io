@@ -3,81 +3,167 @@ layout: default
 title: My Journey
 ---
 <style>
-  .header {
-    font-size: 1em;
+	.journey {
+		font-size: 0.9em;
+		overflow-x: auto;
+	}
+	.journeyClass {
+		text-align: center;
+		border-top: 1px solid #d5d5d5;
+		border-bottom: 1px solid #d5d5d5;
 		font-weight: bold;
   }
-	.certificate {
-    font-size: 0.9em;
-  }
-  .reading {
-    font-size: 0.9em;
-  }
+	table {
+		width: 100%;
+		font-size: 0.9em;
+	}
+	th {
+		height: auto;
+		text-align: left;
+		padding: 5px;
+		border-bottom: 1px solid #ddd;
+	}
+	td {
+		height: auto;
+		vertical-align: center;
+		padding: 5px;
+		border-bottom: 1px solid #ddd;
+	}
+	tr:nth-child(even) {
+		background-color: #f2f2f2
+	}
 </style>
 
 <div class="navigationInfo">
 	<p class = "navigationInfo" align="right">{\{{ page.title }}}</p>
 </div>
 
-<div class="blurp">
-    <h2>Courses &amp; MOOC</h2>
+<!-- IN PROGRESS -->
+<h3 align = "center">What´s going on...</h3>
+<div class="journey">
+	<table>
+		<col width="70%">
+	  <col width="15%">
+		<col width="15%">
+	  <tr>
+	    <th colspan="3"></th>
+	  </tr>
+    <tr>
+      <td>
+        <b>Mastering Software Development in R</b>, Johns Hopkins University, Coursera</b><br/>
+        <span>[MOOC - Specialization - 5 Modules - Capstone Project], October 2016 - In Progress</span>
+      </td>
+      <td></td>
+      <td>
+        <a href="https://www.coursera.org/specializations/r" target = "_blank">Info</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>R for Data Science</b>, H. Wickham and G. Grolemund - O'Reilly - 2016<br/>[Book - In Progress]
+      </td>
+      <td>
+          <a href="http://r4ds.had.co.nz/" target="_blank">Book</a>
+      </td>
+      <td>
+        <a href="https://bitbucket.org/pparacch/rfordatascience_notes/src/master/R_for_datascience.md?fileviewer=file-view-default" target = "_blank">Notes</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Advanced R</b>, H. Wickham - CRC The R Series - 2014<br/>[Book - In Progress]
+      </td>
+      <td>
+          <a href="http://r4ds.had.co.nz/" target="_blank">Book</a>
+      </td>
+      <td></td>
+    </tr>
+	</table>
+  <br/>
 </div>
 
-<div class="blurb">
-	<p>
-	<span class = "header">* "Data Science Specialization" Johns Hopkins University, Coursera (MOOC)</span>
-	<br/>
-	<span class = "certificate">[Specialization - 10 modules - Capstone Project], November 2014 to June 2016, <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RKT7RXPUXB9W" target = "_blank">Certificate</a></span><br/>
-  <span> (Assignments <a href="./ds_specialization.html">info</a>)</span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* "The Analytics Edge" MITx, edX (MOOC)</span>
-	<br/>
-	<span class = "certificate">[Course], Mar 2015 to Jun 2015, <a href="https://s3.amazonaws.com/verify.edx.org/downloads/00571c8d310e47399cbf2aa0ba2bb382/Certificate.pdf" target = "_blank">Certificate</a> (more <a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-2" target = "_blank">info</a>)</span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* "Machine Learning" Stanford University, Coursera (MOOC)</span>
-	<br/>
-	<span class = "certificate">[Course], July 2015 to October 2015, Final grade: 97.3% (more <a href="https://www.coursera.org/learn/machine-learning" target="_blank">info</a>)</span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* "Mastering Software Development in R" Johns Hopkins University, Coursera (MOOC)</span>
-	<br/>
-	<span class = "certificate">[Specialization - 5 Modules - Capstone Project], October 2016 - In Progress (more <a href="https://www.coursera.org/specializations/r" target = "_blank">info</a>)</span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* Paris "Data Science Bootcamp", <a href="https://datasciencedojo.com/" target="_blank">datasciencedojo</a></span>
-	<br/>
-	<span class = "certificate">[In person - 5 days Bootcamp - +50hours] November 2016, <a href="http://certification.datasciencedojo.com/verify/30668457" target = "_blank">Certificate</a> (more info about <a href="http://datasciencedojo.com/bootcamp/" target="_blank">bootcamp</a> &amp; <a href="http://datasciencedojo.com/bootcamp/curriculum/" target="_blank">curriculum</a>)</span>
-</div><!-- /.blurb -->
-
-<div class="blurp">
-    <h2>Readings</h2>
+<!-- COMPLETED -->
+<h3 align = "center">Completed MOOCs & Courses</h3>
+<div class="journey">
+	<table>
+		<col width="70%">
+	  <col width="15%">
+		<col width="15%">
+	  <tr>
+	    <th colspan="3"></th>
+	  </tr>
+		<tr>
+	    <td>
+				<b>Data Science Specialization</b>, Johns Hopkins University, Coursera<br/>
+        <span>[MOOC - Specialization - 10 modules - Capstone Project], Nov 2014 to Jun 2016</span>
+			</td>
+	    <td>
+				<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RKT7RXPUXB9W" target = "_blank">Certificate</a>
+			</td>
+			<td>
+					<span>
+						<a href="./ds_specialization.html">Assignments</a>
+          </span>
+			</td>
+	  </tr>
+    <tr>
+      <td>
+        <b>The Analytics Edge</b>, MITx, edX</b><br/>
+        <span>[MOOC - Course], Mar 2015 to Jun 2015</span>
+      </td>
+      <td>
+        <a href="https://s3.amazonaws.com/verify.edx.org/downloads/00571c8d310e47399cbf2aa0ba2bb382/Certificate.pdf" target = "_blank">Certificate</a>
+      </td>
+      <td>
+        <a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-2" target = "_blank">Info</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Machine Learning</b>, Stanford University, Coursera<br/>
+        <span>[MOOC - Course], July 2015 to October 2015</span>
+      </td>
+      <td> Grade: 97.3%</td>
+      <td>
+        <a href="https://www.coursera.org/learn/machine-learning" target = "_blank">Info</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Data Science Bootcamp</b>, <a href="https://datasciencedojo.com/" target="_blank">datasciencedojo</a><br/>
+        <span>[In person - 5 days Bootcamp - +50hours] Paris, November 2016</span>
+      </td>
+      <td>
+          <a href="http://certification.datasciencedojo.com/verify/30668457" target = "_blank">Certificate</a>
+      </td>
+      <td>
+        <a href="http://datasciencedojo.com/bootcamp/" target="_blank">Info</a><br/>
+        <a href="http://datasciencedojo.com/bootcamp/curriculum/" target="_blank">Curriculum</a>
+      </td>
+    </tr>
+	</table>
 </div>
+<br/>
 
-<div class="blurb">
-	<p>
-	<span class = "header">* "R for Data Science", H. Wickham and G. Grolemund - O'Reilly - 2016 (<a href="http://r4ds.had.co.nz/" target="_blank">here</a>)</span>
-	<br/>
-	<span class = "reading">In Progress, <a href="https://bitbucket.org/pparacch/rfordatascience_notes/src/master/R_for_datascience.md?fileviewer=file-view-default" target = "_blank">notes &amp; learnings</a></span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* "Advanced R", H. Wickham - CRC The R Series - 2014 (<a href="http://adv-r.had.co.nz/" target="_blank">here</a>)</span>
-	<br/>
-	<span class = "reading">In Progress</span>
-</div><!-- /.blurb -->
-
-<div class="blurb">
-	<p>
-	<span class = "header">* "Doing Data Science", C. O'Neil and R. Schutt - O'Reilly - 2014 (<a href="https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659" target="_blank">here</a>)</span>
-</div><!-- /.blurb -->
+<!-- Readings -->
+<h3 align = "center">Books: interesting readings</h3>
+<div class="journey">
+	<table>
+		<col width="70%">
+	  <col width="15%">
+		<col width="15%">
+	  <tr>
+	    <th colspan="3"></th>
+	  </tr>
+    <tr>
+      <td>
+        <b>Doing Data Science</b>, C. O'Neil and R. Schutt - O'Reilly - 2014
+      </td>
+      <td>
+          <a href="https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659" target="_blank">Book</a>
+      </td>
+      <td></td>
+    </tr>
+	</table>
+  <br/>
+</div>
