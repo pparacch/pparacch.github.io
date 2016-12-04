@@ -3,6 +3,10 @@ layout: post
 date: 2016-12-03
 title: "NLP: Working with Unstructured Data with the `tm` package"
 ---
+In the last weeks I have spent some time __experimenting and playing around with the `tm` package__, some __learnings and examples on how to use it__ can be found [here][5]. It is a great package to perform __text mining__ and __transform free text__ into __features__ that can be used for further data analysis.  
+
+#### Background Information
+
 [Text Mining][1] is the process of finding useful insights/ information from text and transform it, using NLP (Natural Language Processing) and analytical methods, into data that could be used for further analysis.
 
 There are many [packages][2] that could be used for Natural Language Processing but only one package is the cornerstone of NLP in R, __the `tm` package__.
@@ -11,7 +15,6 @@ There are many [packages][2] that could be used for Natural Language Processing 
 
 The `tm` package provides a comprehensive text mining framework for R. More information about it can be found in ["Text Minining Infrastructure in R"][3] publication (Journal of Statistical Software) and the ["Introduction of the tm Package"][4] vignette.
 
-In the last weeks I have spent some time __experimenting and playing around with the `tm` package__, some __learnings and examples on how to use it__ can be found [here][5].
 
 
 [1]: https://en.wikipedia.org/wiki/Text_mining "Text Mining"
