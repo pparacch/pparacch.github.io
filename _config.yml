@@ -1,2 +1,5 @@
 name: "An amazing journey in Data Science"
 markdown: kramdown
+
+gems:
+  - jekyll-feed
