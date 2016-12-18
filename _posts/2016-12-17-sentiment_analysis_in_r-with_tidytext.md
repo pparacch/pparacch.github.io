@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-12-17
-title: "Sentiment Analysis with the `tidytext` package"
+title: "NLP: Sentiment Analysis with the `tidytext` package"
 ---
 
 [Here](https://rpubs.com/pparacch/236096) is possible to find some __learnings and examples__ on how to __leverage the functionality provided by the `tidytext` package__ to perform some basic __sentiment analysis using lexicons__. The supporting __.Rmd__ file can be found [in this repo](https://github.com/pparacch/DataSciencePosts/blob/master/expl_NLP_sentiment_analysis_example.Rmd).
