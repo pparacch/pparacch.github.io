@@ -27,6 +27,8 @@ _'Naive Bayes classifiers are a family of simple probabilistic classifiers based
 To have a better overview and understanding of the theory behind text classification & Naive Bayes classifiers, the material created by __Dan Jurafsky & Christopher Manning__ for the __"Natural Language Processing" MOOC__ at __Coursera__ is a great starting point
 
 * [Slides around Text Classification & Naive Bayes](http://spark-public.s3.amazonaws.com/nlp/slides/naivebayes.pdf)
+
+
 * Lesson Videos
   * [What is Text Classification](https://www.youtube.com/watch?v=c3fnHA6yLeY&list=PL6397E4B26D00A269&index=24)
   * [Naive Bayes](https://www.youtube.com/watch?v=DdYSMwEWbd4&list=PL6397E4B26D00A269&index=25)
@@ -35,9 +37,13 @@ To have a better overview and understanding of the theory behind text classifica
   * [Naive Bayes & Language Modeling](https://www.youtube.com/watch?v=ALna9TjBS8Q&list=PL6397E4B26D00A269&index=28)
   * [Multinomial Naive Bayes example](https://www.youtube.com/watch?v=pc36aYTP44o&t=2s&list=PL6397E4B26D00A269&index=29)
   * [Precision, Recall & F measure](https://www.youtube.com/watch?v=2akd6uwtowc&list=PL6397E4B26D00A269&index=30)
-  * [Text Classification Evaluation](https://www.youtube.com/watch?v=OwwdYHWRB5E&list=PL6397E4B26D00A269&index=31)
+  * [Text Classification Evaluation](https://www.youtube.com/watch?v=OwwdYHWRB5E&list=PL6397E4B26D00A269&index=31)  
 
-The ["Naive Bayes and Sentiment
-Classification"](https://web.stanford.edu/~jurafsky/slp3/6.pdf) chapter of ["Speech and Language Processing"](https://web.stanford.edu/~jurafsky/slp3/) book of __Dan Jurafsky__ & __James H. Martin__.
+
+
+The "[Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)" book of __Dan Jurafsky__ & __James H. Martin__
+
+* "[Naive Bayes and Sentiment
+Classification](https://web.stanford.edu/~jurafsky/slp3/6.pdf)" chapter
 
 Enjoy the learnings...
