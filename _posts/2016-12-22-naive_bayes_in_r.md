@@ -1,10 +1,11 @@
 ---
 layout: post
-date: 2016-12-23
+date: 2016-12-22
 title: "NLP: Classification using a Naive Bayes classifier"
+description: "Spam vs. Ham sms: a text classification using a Naive Bayes Classifier #nlp #textmining #naivebayes #classification #supervised #unstructureddata"
 ---
 
-[Here]() is possible to find the __application of the Naive Bayes approach__ to a specific problem: the classification of SMS into __spam__ ("an undesired messages, e.g. advertising") or __ham__ ("a desired message containing valuable information that is not considered spam”).
+[Here](http://rpubs.com/pparacch/237109) is possible to find the __application of the Naive Bayes approach__ to a specific problem: the classification of SMS into __spam__ ("an undesired messages, e.g. advertising") or __ham__ ("a desired message containing valuable information that is not considered spam”). The supporting code can be found [here](https://github.com/pparacch/DataSciencePosts/blob/master/exp_NLP_NaiveBayes_example.Rmd).
 
 The data used for such playground activity is the [SMS Spam Collection v. 1](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/), a public set of SMS messages that have been collected for mobile phone spam research where each message has been properly labeled as __spam__ or __ham__.
 
