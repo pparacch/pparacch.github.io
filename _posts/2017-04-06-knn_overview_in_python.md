@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-04-04
+date: 2017-04-06
 title: "K-Nearest Neighbors Applied: a Regression problem"
 description: "Application of the KNN algorithm for a regression problem: predict the value of houses in the Seattle area #regression #supervised #machinelearning"
 ---
