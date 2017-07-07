@@ -74,7 +74,7 @@ In order to create a basic plot using `ggplot2`
 
 The `ggplot2::ggplot` function is used to create an empty canvas, to construct the initial plot object and provide some initial settings for the plot/ graph. From the _R Documentation_
 
-    `ggplot() initializes a ggplot object. It can be used to declare the input data frame for a graphic and to specify the set of plot aesthetics intended to be common throughout all subsequent layers unless specifically overridden.` R Documentation
+_'ggplot() initializes a ggplot object. It can be used to declare the input data frame for a graphic and to specify the set of plot aesthetics intended to be common throughout all subsequent layers unless specifically overridden.'_ R Documentation
 
 The `data` argument is used to provide the __default dataframe__ that will be used for the graph/ plot, while the `mapping` argument is used to provide the __default list of aesthetic mappings__ to use for plot.
 
