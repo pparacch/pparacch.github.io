@@ -6,6 +6,12 @@
 			<link rel="alternate" type="application/atom+xml" title="Blog Feed" href="/feed.xml" />
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+			<!-- Google analytic settings -->
+			{% if site.google_analytics and jekyll.environment == 'production' %}
+			{% include analytics.html %}
+			{% endif %}
+
 		</head>
 		<body>
       <h1 align = "center">An amazing journey in Data Science</h1>
