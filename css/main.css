@@ -117,3 +117,7 @@ ul.posts li {
 p.postdate {
     font-size: 0.8em;
 }
+
+code {
+  font-size: 0.8em;
+}
