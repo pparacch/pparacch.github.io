@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2017-09-30
-title: "'Writing Functions in R for FUN and PROFIT', Workshop Notes (EARL London 2017)"
-description: "How to write function for fun and profit in R #R #function #goodpractices #MVP #incrementaldesign"
+title: "'Writing Functions in R', Notes (EARL London 2017)"
+description: "How to write functions for fun and profit in R #R #function #goodpractices #MVP #incrementaldesign"
 ---
 
 Attended the [EARL](https://earlconf.com/london/) (Enterprise Applications of the R Language) 2017 Conference in London this September (12th - 14th September) and, I had the opportunity to be a participant in the "Writing functions for Fun and Profit" workshop by Jenny Bryan (RStudio).
