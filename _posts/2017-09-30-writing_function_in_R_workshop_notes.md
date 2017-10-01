@@ -42,14 +42,15 @@ p + geom_line(color="gray70", aes(group = country)) +
   labs(x = "Year",
        y = "GDP per capita",
        title = "GDP per capita on Five Continents")
-
 ```
+
+![]({{site.url}}/assets/img/writing_functions_R/gapminder_GDP.png)<!-- -->
 
 ### The art of writing functions
 
 Imagine that you want to write a function that returns (max - min) in the provided vector.
 
-The __first step__ is to __figure out how to perform the specific task__ (the hows. There are many possible ways to perform the required operations, e.g.
+The __first step__ is to __figure out how to perform the specific task__ (the hows). There are many possible ways to perform the required operations, e.g.
 
 ```{r}
 # Idea
