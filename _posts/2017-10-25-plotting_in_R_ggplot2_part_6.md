@@ -452,7 +452,7 @@ ggplot(mpg, aes(displ, hwy, colour = class)) +
 
 Building new graphical elements, _stat_(s) or _geom_(s),can be useful if a new new graphical element is needed or to simplify a complex graphical task/ process that must be used repeatedly in many plots. The building of the new graphical element is done using the extending mechanism provided by `ggplot2` [2]. More examples of ggplot2 extension can be found at [3].
 
-# References
+## References
 
 [1] "Building New Graphical Elements" chapter in "[Mastering Software Development in R](http://rdpeng.github.io/RProgDA/building-new-graphical-elements.html)" by Peng, Cross and Anderson, 2017  
 [2] Article ["Extending ggplot2"](http://ggplot2.tidyverse.org/articles/extending-ggplot2.html)  
@@ -470,7 +470,7 @@ __Previous "Building Data Visualization Tools" blogs__:
 - Part 4: "[How to work with maps](https://pparacch.github.io/2017/08/28/plotting_in_R_ggplot2_part_4.html)"  
 - Part 5: "[Customise `ggplot2` output with `grid`](https://pparacch.github.io/2017/09/25/plotting_in_R_ggplot2_part_5.html)"
 
-# Session Info
+## Session Info
 
 ```r
 sessionInfo()
