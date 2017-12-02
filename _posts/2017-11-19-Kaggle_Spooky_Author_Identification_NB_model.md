@@ -20,7 +20,7 @@ description: "Implementing a Naive Bayes Classifier, on the unstructured data pr
   });
 </script>
 
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
 
 The content of this blog is based on some classification performed on the __corpora__ provided for the "Spooky Author Identification" challenge at Kaggle [1]. An Hallowen-based challenge with the following goal: __predict who was writing a sentence of a possible spooky story__ between __Edgar Allan Poe__, __HP Lovecraft__ and __Mary Wollstonecraft Shelley__.
 
