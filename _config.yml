@@ -4,9 +4,6 @@ title: "An amazing journey in Data Science and Machine Learning."
 description: "My personal journey in data science, machine learning, data engineering and big data while doing data science. Discovering the hidden value of data."
 url: "https://pparacch.github.io"
 
-# Google Services
-google_analytics: UA-102583998-1
-
 gems:
   - jekyll-feed
   - jekyll-seo-tag
