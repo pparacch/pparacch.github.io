@@ -33,6 +33,7 @@ nav.mainmenu ul li a:hover:not(.active) {
 footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
     font-size: 1em;
 }
 footer ul {
@@ -44,6 +45,7 @@ footer ul {
 footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 0.7em;
 }
 footer ul li a {
     text-decoration: none;
@@ -55,7 +57,6 @@ footer ul li a:hover {
 }
 
 footer p {
-  border-top: 1px solid #d5d5d5;
   padding: 10px;
   font-size: 0.7em;
   color: #808080;
